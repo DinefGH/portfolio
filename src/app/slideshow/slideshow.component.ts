@@ -1,13 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: 'app-slideshow',
+  templateUrl: './slideshow.component.html',
+  styleUrls: ['./slideshow.component.scss']
 })
-
-
-export class AppComponent implements OnInit {
+export class SlideshowComponent implements OnInit {
   images = ['books-1281581_1920.jpg', 'coding-924920_1920.jpg', 'study-789631_1920.jpg',]
   headlines = [
     'My study place',
@@ -34,3 +32,4 @@ export class AppComponent implements OnInit {
     }, 8000);
   }
 }
+
